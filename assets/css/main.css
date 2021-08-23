@@ -1,3 +1,7 @@
+* {
+    font-family: 'Oswald', sans-serif;
+}
+
 body {
     margin: 0;
     background: #f3f3f3;
@@ -45,11 +49,11 @@ body {
   }
 
   .amarillo {
-    background: #ffee00;
+    background: #f3e300;
   }
 
   .amarillo.light {
-    background: #ffef61;
+    background: #fff6a6;
   }
 
   .verde {
@@ -61,6 +65,7 @@ body {
   }
 
   .btn-start {
+    cursor: pointer;
     width: 400px;
     height: 80px;
     background: #444444;
@@ -71,7 +76,32 @@ body {
     left: calc(50% - 200px);
     border-radius: 40px;
     border: none;
+    border-bottom: 4px solid #727272;
     font-family: 'Oswald', sans-serif;
   }
 
+  .btn-start:hover {
+    cursor: pointer;
+    background: #686868;
+    border-bottom: 4px solid #999999;
+  }
+  
+  .btn-start:active {
+    background: #686868;
+    animation-name: opacidad;
+    animation-duration: 1s;
+  }
+
+  .hide {
+    display: none;
+  }
+
+  @keyframes opacidad {
+    0% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
   
