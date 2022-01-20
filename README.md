@@ -1,2 +1,3 @@
 # Simon-dice
-Juego de memoria que consiste en repetir de forma exacta la secuencia dada por la máquina para poder ganar. 10 niveles de dificultad incluídos. Si se equivoca, debe comenzar desde el level 1.
+Juego de memoria construido con JS durante el curso de Fundamentos de Javascript de Platzi. 
+
